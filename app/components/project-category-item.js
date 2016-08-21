@@ -5,7 +5,7 @@ import Ember from 'ember';
   the user is taken to a list of projects using this category.
 
   ## Default usage
-  ```
+  ```Handlebars
   {{project-category-item category=category}}
   ```
 
