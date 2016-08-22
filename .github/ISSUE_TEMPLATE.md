@@ -1,13 +1,13 @@
-## Problem
+# Problem
 
-### Solution
+# Solution
 
-#### Subtasks
+## Subtasks
 - []
 
 - []
 
 - []
 
-### References
+## References
 Progress on: #.
