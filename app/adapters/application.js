@@ -13,13 +13,6 @@ export default DS.JSONAPIAdapter.extend(DataAdapterMixin, {
 
   host: ENV.API_BASE_URL,
 
-  // by default, json API convers a modelName into model-name.
-  // rails is all about underscores, though, so we need model_name
-  pathForType(modelName) {
-    let underscored = Ember.String.underscore(modelName);
-    return Ember.String.pluralize(underscored);
-  },
-
   // eliminates a deprecation warning
   // default behavior will return true in ember data 2.x
   // so we should consider accounting for that
